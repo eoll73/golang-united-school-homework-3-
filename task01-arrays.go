@@ -19,5 +19,4 @@ func main() {
 	averageInput := []int{1, 2, 3, 4, 5, 6}
 	averageRes := average(&averageInput)
 	fmt.Printf("Average result: %f\n", averageRes)
-	fmt.Println("done")
 }

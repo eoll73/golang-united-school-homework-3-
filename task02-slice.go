@@ -17,6 +17,4 @@ func main() {
 	reverseInput := []int64{1, 2, 5, 15}
 	reverseRes := reverse(&reverseInput)
 	fmt.Printf("Reverce result: %v\n", reverseRes)
-
-	fmt.Println()
 }

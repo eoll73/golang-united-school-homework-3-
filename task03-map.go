@@ -22,6 +22,4 @@ func main() {
 	sortMapValuesInput := map[int]string{10: "aa", 0: "bb", 500: "cc"}
 	sortMapValuesRes := sortMapValues(&sortMapValuesInput)
 	fmt.Printf("Sort Map Values result: %v\n", sortMapValuesRes)
-
-	fmt.Println("done")
 }
